@@ -1,0 +1,141 @@
+/* Chinese (Simplified). Keys must stay in sync with en.lproj/Localizable.strings. */
+
+"a11y.collapse" = "折叠";
+"a11y.expand" = "展开";
+"a11y.off" = "关闭";
+"a11y.on" = "开启";
+"a11y.switch" = "开关";
+
+"action.authorize" = "授权";
+"action.cancel" = "取消";
+"action.clear" = "清除";
+"action.create" = "创建";
+"action.delete" = "删除";
+"action.dismiss" = "关闭提示";
+"action.done" = "完成";
+"action.enableAncestors" = "开启上级分组";
+"action.ignore" = "忽略";
+"action.import" = "导入更改";
+"action.insertDefault" = "插入 macOS 默认条目";
+"action.restore" = "恢复此版本";
+"action.retry" = "重试";
+"action.reveal" = "在 Finder 中显示";
+"action.revert" = "还原";
+"action.save" = "保存";
+
+"conflicts.message" = "同一个域名在多个已启用的分组里指向了不同地址。系统只采用排在前面的那条映射。";
+"conflicts.title" = "域名冲突";
+"conflicts.wins" = "生效";
+
+"delete.message" = "这个分组里的主机映射会从 hosts 文件中移除。";
+"delete.message.children" = "这个分组包含 %lld 个子分组，它们会一并删除。";
+"delete.title" = "删除分组“%@”？";
+
+"empty.message" = "在左侧选择或新建一个分组。";
+"empty.title" = "未选择分组";
+
+"error.saveSettings" = "无法保存应用数据：%@";
+
+"group.imported.name" = "导入的条目";
+"group.system.name" = "系统 Hosts";
+
+"hint.ancestorOff" = "“%@”已开启，但上级分组“%@”处于关闭状态，暂时不会生效。";
+"hint.canceled" = "没有获得管理员权限。你仍然可以编辑分组，但更改不会写入 hosts 文件。";
+"hint.localhostMissing" = "系统 Hosts 里没有 localhost 映射，这台 Mac 目前无法解析 localhost。";
+"hint.unsaved" = "更改已保存在分组里，但还没有写入 hosts 文件。";
+
+"history.diff" = "+%lld / −%lld 行";
+"history.empty" = "还没有快照";
+"history.empty.message" = "每次把更改写入 hosts 文件之前，都会先保存一份当时的副本。";
+"history.explain" = "恢复前会先把当前文件另存为快照。";
+"history.pick" = "选择一个快照";
+"history.pick.message" = "这里会显示当时的 hosts 文件内容。";
+"history.restore.message" = "当前文件会先保存为快照，分组内容和开关状态将回到当时的样子，并立即写入 hosts 文件。";
+"history.restore.title" = "恢复这个快照？";
+
+"import.confirm.message" = "分组内容和开关状态将按 hosts 文件当前的实际内容更新，未保存的编辑会被替换。";
+"import.confirm.title" = "导入当前的 hosts 文件？";
+
+"localhost.confirm.message" = "移除后这台 Mac 将无法解析 localhost，依赖它的本地服务和开发工具都会受影响。";
+"localhost.confirm.proceed" = "仍要移除";
+"localhost.confirm.title" = "这会移除最后一项 localhost 映射";
+
+"menu.delete" = "删除…";
+"menu.group" = "分组";
+"menu.newChild" = "新建子分组";
+"menu.newGroup" = "新建分组";
+"menu.rename" = "重新命名…";
+"menu.toggle" = "开启或关闭所选分组";
+
+"notice.baseConflict" = "系统 Hosts 的内容已被其他程序改动，与你的修改冲突。已按本应用的内容写入，改动前的文件在历史快照里。";
+"notice.externalChange" = "hosts 文件在本应用之外被修改过。";
+"notice.snapshotFailed" = "备份失败，本次更改已写入，但没有留下快照。";
+
+"privilege.authorizationFailed" = "请求管理员权限失败（%d）。";
+"privilege.canceled" = "已取消授权，hosts 文件未更改。";
+"privilege.helperStopped" = "写入通道已断开，请重新授权后再试。";
+"privilege.helperUnavailable" = "无法启动提权助手。";
+"privilege.launchFailed" = "启动提权助手失败（%d）。";
+"privilege.payloadTooLarge" = "内容过大，超出了 hosts 文件的大小上限。";
+"privilege.rejected" = "写入被拒绝：%@";
+"privilege.timedOut" = "写入超时，请重试。";
+
+"quit.cancel" = "取消";
+"quit.discard" = "不保存";
+"quit.message" = "如果不保存，你对分组所做的更改将会丢失。";
+"quit.save" = "保存并退出";
+"quit.title" = "要存储对分组所做的更改吗？";
+
+"rail.delete" = "删除所选分组";
+"rail.history" = "历史快照";
+"rail.search" = "搜索";
+"rail.sidebar" = "显示或隐藏边栏";
+
+"sample.integrationTests" = "集成测试";
+"sample.localDevelopment" = "本地开发";
+"sample.mobileBackend" = "移动端后端";
+"sample.production" = "生产参考";
+"sample.project" = "项目环境";
+"sample.qa" = "测试环境";
+"sample.sandbox" = "API 沙箱";
+"sample.staging" = "预发环境";
+"sample.team" = "团队 Hosts";
+"sample.websitePreview" = "网站预览";
+
+"settings.backups" = "备份";
+"settings.data" = "数据保存在 %@";
+"settings.devMode" = "开发模式：读写的是 %@，而不是 /etc/hosts。";
+"settings.editor" = "编辑器";
+"settings.flush" = "写入后刷新 DNS 缓存";
+"settings.flush.help" = "让系统立即按新的 hosts 文件解析域名。";
+"settings.fontSize" = "字号";
+"settings.limit" = "保留快照";
+"settings.limit.all" = "全部";
+"settings.snapshot" = "写入前备份 hosts 文件";
+"settings.title" = "设置";
+"settings.wrap" = "长行自动换行";
+
+"sheet.below" = "将创建在“%@”之下";
+"sheet.create" = "新建分组";
+"sheet.icon" = "图标";
+"sheet.icon.auto" = "自动";
+"sheet.namePlaceholder" = "例如：本地开发";
+"sheet.rename" = "重新命名分组";
+
+"sidebar.noMatches" = "没有匹配的分组或主机名";
+"sidebar.searchPrompt" = "搜索分组或主机名";
+
+"status.applied" = "已写入 %@";
+"status.applied.help" = "hosts 文件已于此时更新：%@";
+"status.applying" = "正在写入…";
+"status.bytes" = "%lld B";
+"status.conflicts" = "%lld 个域名冲突";
+"status.conflicts.help" = "点击查看哪些域名指向了不同地址";
+"status.cursor" = "行 %lld，列 %lld";
+"status.failed" = "写入失败";
+"status.invalidLines" = "%lld 行有误";
+"status.invalidLines.help" = "带红色下划线的行不是有效的 hosts 条目，系统会忽略它们";
+"status.kilobytes" = "%.1f KB";
+"status.lines" = "%lld 行";
+"status.stats" = "%lld 行 · %@";
+"status.waitingForAuth" = "等待授权…";

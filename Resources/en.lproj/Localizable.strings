@@ -1,0 +1,141 @@
+/* English. Keys must stay in sync with zh-Hans.lproj/Localizable.strings. */
+
+"a11y.collapse" = "Collapse";
+"a11y.expand" = "Expand";
+"a11y.off" = "Off";
+"a11y.on" = "On";
+"a11y.switch" = "Switch";
+
+"action.authorize" = "Authorize";
+"action.cancel" = "Cancel";
+"action.clear" = "Clear";
+"action.create" = "Create";
+"action.delete" = "Delete";
+"action.dismiss" = "Dismiss";
+"action.done" = "Done";
+"action.enableAncestors" = "Turn On Parent Group";
+"action.ignore" = "Ignore";
+"action.import" = "Import Changes";
+"action.insertDefault" = "Insert macOS Defaults";
+"action.restore" = "Restore This Version";
+"action.retry" = "Retry";
+"action.reveal" = "Show in Finder";
+"action.revert" = "Revert";
+"action.save" = "Save";
+
+"conflicts.message" = "The same hostname is mapped to different addresses by more than one active group. Only the first mapping in the file takes effect.";
+"conflicts.title" = "Hostname Conflicts";
+"conflicts.wins" = "ACTIVE";
+
+"delete.message" = "The host mappings in this group will be removed from the hosts file.";
+"delete.message.children" = "This group contains %lld nested groups, which will be deleted with it.";
+"delete.title" = "Delete “%@”?";
+
+"empty.message" = "Select or create a group on the left.";
+"empty.title" = "No Group Selected";
+
+"error.saveSettings" = "Could not save the app's data: %@";
+
+"group.imported.name" = "Imported Entries";
+"group.system.name" = "System Hosts";
+
+"hint.ancestorOff" = "“%@” is on, but its parent group “%@” is off, so it is not in effect yet.";
+"hint.canceled" = "Administrator access was not granted. You can still edit groups, but changes will not reach the hosts file.";
+"hint.localhostMissing" = "System Hosts has no localhost mapping, so this Mac cannot resolve localhost right now.";
+"hint.unsaved" = "The changes are kept in their groups but have not been written to the hosts file.";
+
+"history.diff" = "+%lld / −%lld lines";
+"history.empty" = "No Snapshots Yet";
+"history.empty.message" = "A copy of the hosts file is kept just before every write.";
+"history.explain" = "Restoring first saves the current file as a new snapshot.";
+"history.pick" = "Select a Snapshot";
+"history.pick.message" = "The hosts file as it was then is shown here.";
+"history.restore.message" = "The current file is saved as a snapshot first. Groups and switches return to how they were, and the file is written right away.";
+"history.restore.title" = "Restore This Snapshot?";
+
+"import.confirm.message" = "Groups and switches will be updated to match the hosts file as it is right now. Unsaved edits are replaced.";
+"import.confirm.title" = "Import the Current Hosts File?";
+
+"localhost.confirm.message" = "After this the Mac cannot resolve localhost. Local servers and developer tools that rely on it will stop working.";
+"localhost.confirm.proceed" = "Remove It Anyway";
+"localhost.confirm.title" = "This Removes the Last localhost Mapping";
+
+"menu.delete" = "Delete…";
+"menu.group" = "Group";
+"menu.newChild" = "New Nested Group";
+"menu.newGroup" = "New Group";
+"menu.rename" = "Rename…";
+"menu.toggle" = "Turn Selected Group On or Off";
+
+"notice.baseConflict" = "Another program changed the system hosts entries, which conflicts with your edit. Your version was written; the file as it was is in the snapshots.";
+"notice.externalChange" = "The hosts file was changed outside this app.";
+"notice.snapshotFailed" = "The backup failed. The change was written, but no snapshot was kept.";
+
+"privilege.authorizationFailed" = "Could not get administrator access (%d).";
+"privilege.canceled" = "Authorization was canceled; the hosts file is unchanged.";
+"privilege.helperStopped" = "The write channel closed. Authorize again and retry.";
+"privilege.helperUnavailable" = "The privileged helper could not be started.";
+"privilege.launchFailed" = "The privileged helper failed to start (%d).";
+"privilege.payloadTooLarge" = "The content is larger than the limit for a hosts file.";
+"privilege.rejected" = "The write was refused: %@";
+"privilege.timedOut" = "The write timed out. Please try again.";
+
+"quit.cancel" = "Cancel";
+"quit.discard" = "Don't Save";
+"quit.message" = "If you don't save, your changes to the groups will be lost.";
+"quit.save" = "Save and Quit";
+"quit.title" = "Save changes to your groups?";
+
+"rail.delete" = "Delete Selected Group";
+"rail.history" = "Snapshots";
+"rail.search" = "Search";
+"rail.sidebar" = "Show or Hide Sidebar";
+
+"sample.integrationTests" = "Integration Tests";
+"sample.localDevelopment" = "Local Development";
+"sample.mobileBackend" = "Mobile Backend";
+"sample.production" = "Production Reference";
+"sample.project" = "Project Environments";
+"sample.qa" = "QA Environment";
+"sample.sandbox" = "API Sandbox";
+"sample.staging" = "Staging Environment";
+"sample.team" = "Team Hosts";
+"sample.websitePreview" = "Website Preview";
+
+"settings.backups" = "Backups";
+"settings.data" = "Data is kept in %@";
+"settings.devMode" = "Development mode: reading and writing %@ instead of /etc/hosts.";
+"settings.editor" = "Editor";
+"settings.flush" = "Flush the DNS cache after writing";
+"settings.flush.help" = "Makes the system resolve names from the new hosts file right away.";
+"settings.fontSize" = "Font size";
+"settings.limit" = "Snapshots to keep";
+"settings.limit.all" = "All";
+"settings.snapshot" = "Back up the hosts file before writing";
+"settings.title" = "Settings";
+"settings.wrap" = "Wrap long lines";
+
+"sheet.below" = "Will be created under “%@”";
+"sheet.create" = "New Group";
+"sheet.icon" = "Icon";
+"sheet.icon.auto" = "Automatic";
+"sheet.namePlaceholder" = "For example: Local Development";
+"sheet.rename" = "Rename Group";
+
+"sidebar.noMatches" = "No matching groups or hostnames";
+"sidebar.searchPrompt" = "Search groups or hostnames";
+
+"status.applied" = "Written %@";
+"status.applied.help" = "The hosts file was updated at %@";
+"status.applying" = "Writing…";
+"status.bytes" = "%lld B";
+"status.conflicts" = "%lld hostname conflicts";
+"status.conflicts.help" = "Click to see which hostnames point to different addresses";
+"status.cursor" = "Ln %lld, Col %lld";
+"status.failed" = "Write failed";
+"status.invalidLines" = "%lld invalid lines";
+"status.invalidLines.help" = "Lines with a red underline are not valid hosts entries; the system ignores them";
+"status.kilobytes" = "%.1f KB";
+"status.lines" = "%lld lines";
+"status.stats" = "%lld lines · %@";
+"status.waitingForAuth" = "Waiting for authorization…";
